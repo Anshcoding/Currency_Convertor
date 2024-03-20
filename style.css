@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(74, 209, 74);
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+height: 34rem;
+
+
+}
+.container i{
+    width: 3rem;
+    /* height: 2rem; */
+    font-size: 1.5rem;
+}
+.container{
+background-color: rgb(218, 211, 203);
+border: 2px solid greenyellow;
+padding: 30px;
+border-radius: 22px;
+align-items: center;
+padding: 2rem;
+/* min-height: 50vh; */
+height: 320px;
+width: 40vh;
+}
+
+form{
+    margin-top: 23px;
+    gap: 34px;
+
+}
+.amount p{
+font-size: 1rem;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+form input{
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding-right: 2rem;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;  /*to give space between elements*/
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.select-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+border: 2px solid none;
+width: 6rem;
+height: 4rem;
+border-radius: 2rem;
+padding-top: 0rem 0rem 1rem 1rem ;
+
+}
+.select-container img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.select-container select{
+    width: 4rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+.msg{
+    padding: 1.5rem 0 1.5rem 0 ;
+
+}
+form button{
+
+    padding: 1rem 2.2rem 1rem 2.2rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.1rem;
+    background-color: rgb(60, 88, 110);
+text-align: center;
+    cursor: pointer;
+    margin-bottom:4rem ;
+    /* width: fit-content; */
+    margin-left: 1.1rem;
+    margin-right: 0.7rem;
+}
